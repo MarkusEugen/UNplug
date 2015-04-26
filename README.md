@@ -6,9 +6,12 @@ Go off grid with your home, cabin, camp, RV, boat, etc.
 # Configurations
 We offer two main configuration options:
 Arduino Nano (USB)
+
 Very inexpensive and simple. Plug-in and forget about it.
 This version is completely offline and self sufficient.
+
 Spark Core (USB and WiFi)
+
 Connected to a cloud service but can be manually disconnected and run offline.
 This version is more interactive and stores more graphs and usage data. Also, when new Firmware is available, it can be updated remotely. This is the ideal solution if you want to track your energy daily.
 
