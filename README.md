@@ -13,7 +13,6 @@ After four years of research Loeffler is introducing UNplug, a simple, inexpensi
 UNplug works with a single solar panel and battery to ensure uninterruptible power during good times and bad. A single system can provide power for a refrigerator, laptop and modem (approximately 1500 watts per unit). The design is future-proof since multiple UNplug units may be connected based on individual needs and budgets.
 In addition to realizing uninterruptible energy security and real cost savings, UNplug users will help address environmental challenges.  An average fridge/laptop/modem combination consumes approximately 622kWh per year – dumping 326 pounds of CO2 into the environment!
 Unplug includes a dashboard app for both iOS and Android devices, allowing home automation.  Energy usage, CO2 savings and and cost savings are tracked online, in real time.  
-A successful Kickstarter campaign will finance the final product development (including UL listing), manufacturing and testing.  The product is scheduled to ship in October 2015.
 
 ## What's Included
 
@@ -21,7 +20,7 @@ A successful Kickstarter campaign will finance the final product development (in
 
 **rev2-Solar UPS-pinouts.PDF** — Detailed pin mapping of the Arduino Nano and Spark Core, and additional header pin for communication via Serial1 and I2C.
 
-**solarUSBControllerLib.ino** — C library for the components used on the Spark Core.
+**solarUSBControllerLib.ino** — C library defining labels and functions to access sensor values and set I/O parameter.
 
 **UPS-schema_V2.pdf** — Includes detailed description of logical component placement and I/O pin assignment.
 
