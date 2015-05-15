@@ -24,4 +24,6 @@ Unplug includes a dashboard app for both iOS and Android devices, allowing home 
 
 **UPS-schema_V2.pdf** — Includes detailed description of logical component placement and I/O pin assignment.
 
+**nano-drivers** - Folder contains the USB drivers for the Arduino Nano compatible micro-controller
+
 
