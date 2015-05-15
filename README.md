@@ -1,17 +1,27 @@
-# UNplug
+UNplug solar energy controller
+=====
 
-The simple, inexpensive, and fully-automatic power savings solution as arrived.
-Go off grid with your home, cabin, camp, RV, boat, etc.
+These are the hardware design and software library files for the UNplug controller, developed by Markus E. Loeffler.
 
-# Configurations
-We offer two main configuration options:
-Arduino Nano (USB)
-Very inexpensive and simple. Plug-in and forget about it.
-This version is completely offline and self sufficient.
-Spark Core (USB and WiFi)
-Connected to a cloud service but can be manually disconnected and run offline.
-This version is more interactive and stores more graphs and usage data. Also, when new Firmware is available, it can be updated remotely. This is the ideal solution if you want to track your energy daily.
+## The Story
 
-It’s simple. If you want the magic to happen behind the scenes, you can choose the Arduino version. This would be most useful if your main application is the RV, boat or cabin where there is no WiFi available. Instead of Wifi, all optional configuration parameters are accessible via a USB connection.
+“One Fridge off the Grid” Kickstarter campaign empowers consumers to reduce energy costs and greenhouse emissions
 
-If your system is permanently mounted in your home, the Spark configuration is ideal. All settings will be accessible via direct USB connect or online through wifi using an app on your smartphone, computer or tablet. UNplug also easily integrates with internet of things (IoT). The IoT is the network of physical objects or "things" embedded with electronics, software, sensors and connectivity to enable it to exchange data with the user or other connected devices.
+Los Angeles, CA – May 18, 2015 – Local software engineer Markus Loeffler today announced a Kickstarter project to help consumers reduce dependency on the electric grid while saving on electric costs. “One Fridge off the Grid” was initially conceived during a power outage caused by severe storms in 2011. Loeffler was without power for days, and the food in his fridge spoiled. His son was unable to research homework assignments online. Loeffler was determined to avoid this situation again.
+
+After four years of research Loeffler is introducing UNplug, a simple, inexpensive and fully­automatic power savings solution. UNplug is revolutionary because it provides consumers with their own home-based power grid. 
+UNplug works with a single solar panel and battery to ensure uninterruptible power during good times and bad. A single system can provide power for a refrigerator, laptop and modem (approximately 1500 watts per unit). The design is future-proof since multiple UNplug units may be connected based on individual needs and budgets.
+In addition to realizing uninterruptible energy security and real cost savings, UNplug users will help address environmental challenges.  An average fridge/laptop/modem combination consumes approximately 622kWh per year – dumping 326 pounds of CO2 into the environment!
+Unplug includes a dashboard app for both iOS and Android devices, allowing home automation.  Energy usage, CO2 savings and and cost savings are tracked online, in real time.  
+
+## What's Included
+
+**rev2-Solar UPS-PCB-layout.PDF** — PCB layout file.  Includes part number labels from design files.
+
+**rev2-Solar UPS-pinouts.PDF** — Detailed pin mapping of the Arduino Nano and Spark Core, and additional header pin for communication via Serial1 and I2C.
+
+**solarUSBControllerLib.ino** — C library defining labels and functions to access sensor values and set I/O parameter.
+
+**UPS-schema_V2.pdf** — Includes detailed description of logical component placement and I/O pin assignment.
+
+
